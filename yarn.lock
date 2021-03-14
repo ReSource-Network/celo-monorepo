@@ -6672,6 +6672,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.10.tgz#34a9be3cbc409fd235984bd18a130006f5234396"
   integrity sha512-J+FbkhLTcFstD7E5mVZDjYxa1VppwT2HALE6H3n2AnBSP8uiCQk0Pyr6BkJcP38dFV9WecoVJRJmFnl9ikIW7Q==
 
+"@types/node@^14.14.34":
+  version "14.14.34"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.34.tgz#07935194fc049069a1c56c0c274265abeddf88da"
+  integrity sha512-dBPaxocOK6UVyvhbnpFIj2W+S+1cBTkHQbFQfeeJhoKFbzYcVUGHvddeWPSucKATb3F0+pgDq0i6ghEaZjsugA==
+
 "@types/node@^6.0.52":
   version "6.14.6"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.14.6.tgz#31df045b4c7618ff74d84f542fc3d29445dd566b"
@@ -6730,7 +6735,7 @@
     "@types/node" "*"
     "@types/pg-types" "*"
 
-"@types/prettier@^1.13.2", "@types/prettier@^1.19.0", "@types/prettier@^2.0.0":
+"@types/prettier@^1.13.2", "@types/prettier@^1.19.0", "@types/prettier@^2.0.0", "@types/prettier@^2.1.1":
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-1.19.1.tgz#33509849f8e679e4add158959fdb086440e9553f"
   integrity sha512-5qOlnZscTn4xxM5MeGXAMOsIOIKIbh9e85zJWfBRVPlRMEVawzoPhINYbRGkBZCI8LxvBe7tJCdWiarA99OZfQ==
@@ -26588,7 +26593,7 @@ prettier-plugin-solidity@1.0.0-alpha.35:
     solidity-parser-antlr "^0.4.11"
     string-width "^4.1.0"
 
-prettier@1.18.2, prettier@1.19.1, prettier@^1.14.2, prettier@^1.14.3, prettier@^1.15.3, prettier@^1.19.1, prettier@^2.0.2:
+prettier@1.18.2, prettier@1.19.1, prettier@^1.14.2, prettier@^1.14.3, prettier@^1.15.3, prettier@^1.19.1, prettier@^2.0.2, prettier@^2.1.2:
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
@@ -31779,6 +31784,21 @@ ts-generator@^0.0.8:
     glob "^7.1.2"
     mkdirp "^0.5.1"
     prettier "^1.14.2"
+    resolve "^1.8.1"
+    ts-essentials "^1.0.0"
+
+ts-generator@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/ts-generator/-/ts-generator-0.1.1.tgz#af46f2fb88a6db1f9785977e9590e7bcd79220ab"
+  integrity sha512-N+ahhZxTLYu1HNTQetwWcx3so8hcYbkKBHTr4b4/YgObFTIKkOSSsaa+nal12w8mfrJAyzJfETXawbNjSfP2gQ==
+  dependencies:
+    "@types/mkdirp" "^0.5.2"
+    "@types/prettier" "^2.1.1"
+    "@types/resolve" "^0.0.8"
+    chalk "^2.4.1"
+    glob "^7.1.2"
+    mkdirp "^0.5.1"
+    prettier "^2.1.2"
     resolve "^1.8.1"
     ts-essentials "^1.0.0"
 

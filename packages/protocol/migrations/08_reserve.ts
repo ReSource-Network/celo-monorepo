@@ -31,8 +31,8 @@ const initializeArgs = async (): Promise<[
     registry.address,
     config.reserve.tobinTaxStalenessThreshold,
     config.reserve.dailySpendingRatio,
-    0, // frozenGold cannot be set until the reserve us funded
-    0, // frozenGold cannot be set until the reserve us funded
+    100000000, // frozenGold cannot be set until the reserve us funded (sure it can!)
+    100, // frozenGold cannot be set until the reserve us funded (sure it can!)
     config.reserve.assetAllocationSymbols.map((assetSymbol) =>
       Web3Utils.padRight(Web3Utils.utf8ToHex(assetSymbol), 64)
     ),

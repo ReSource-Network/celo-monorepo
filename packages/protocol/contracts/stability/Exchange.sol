@@ -88,13 +88,13 @@ contract Exchange is
     uint256 _minimumReports
   ) external initializer {
     _transferOwnership(msg.sender);
-    setRegistry(registryAddress);
-    setStableToken(stableToken);
-    setSpread(_spread);
-    setReserveFraction(_reserveFraction);
-    setUpdateFrequency(_updateFrequency);
-    setMinimumReports(_minimumReports);
-    _updateBucketsIfNecessary();
+    // setRegistry(registryAddress);
+    // setStableToken(stableToken);
+    // setSpread(_spread);
+    // setReserveFraction(_reserveFraction);
+    // setUpdateFrequency(_updateFrequency);
+    // setMinimumReports(_minimumReports);
+    // _updateBucketsIfNecessary();
   }
 
   /**

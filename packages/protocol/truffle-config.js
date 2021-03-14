@@ -220,6 +220,10 @@ module.exports = {
       version: SOLC_VERSION,
       settings: {
         evmVersion: 'istanbul',
+        optimizer: {
+          enabled: true,
+          runs: 200,
+        },
       },
     },
   },

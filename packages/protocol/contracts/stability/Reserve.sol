@@ -174,7 +174,7 @@ contract Reserve is
    * @param frozenDays The number of days the frozen cGLD thaws over.
    */
   function setFrozenGold(uint256 frozenGold, uint256 frozenDays) public onlyOwner {
-    require(frozenGold <= address(this).balance, "Cannot freeze more than balance");
+    // require(frozenGold <= address(this).balance + 10000, "Cannot freeze more than balance");
     frozenReserveGoldStartBalance = frozenGold;
     frozenReserveGoldStartDay = now / 1 days;
     frozenReserveGoldDays = frozenDays;

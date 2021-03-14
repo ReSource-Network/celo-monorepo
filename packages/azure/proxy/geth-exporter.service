@@ -1,1 +1,11 @@
-../scripts/geth-exporter.service
+Description=Docker Container %N
+Requires=docker.service
+After=docker.service
+
+[Service]
+Restart=always
+ExecStart=/usr/local/bin/exporter-run %N
+ExecStop=/usr/bin/docker rm -f %N
+
+[Install]
+WantedBy=default.target
